@@ -1,0 +1,134 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wrist</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/6670/6670362.png">
+    <link rel="stylesheet" href="selftest_style.css">
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap" rel="stylesheet"/>
+    <!--Line Awesome CDN Link-->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+      
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="data_css.css" />
+</head>
+  <body>
+    <h1 style="font-family:poppins;background-color:orange;text-align:center;font-size: 3.2em; margin-top: 0.20em;font-color:white;color:white">Analyze your wrist</h1>
+    <section id="sec-1">
+      <div class="main-container">
+        <h2> Are you experiencing any of the following symptoms?</h2>
+        <div class="radio-buttons">
+          <label class="custom-radio">
+            <input type="radio" name="ques1.a" id="q1a">
+            <span class="radio-btn">
+              <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="140 px" height="140 px" src="https://tse4.mm.bing.net/th?id=OIP.HAtw9iaguKlSDrY0YBSawQHaE8&pid=Api&P=0"/>
+                <h3>Wrist pain</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="ques1.b" id="q1b">
+            <span class="radio-btn">
+		          <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="150 px" height="140 px" src="https://tse1.mm.bing.net/th?id=OIP.cdElV8UnLJlpJzwKI7dGmAEsCI&pid=Api&P=0"/>
+                <h3>Wrist swelling</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="ques1.c" id="q1c">
+            <span class="radio-btn">
+		          <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="140 px" height="140 px" src="https://tse2.mm.bing.net/th?id=OIP.Ca7fQ275kc6_JQbHP3ju7QHaEK&pid=Api&P=0"/>
+                <h3>Crackling sound when moving wrist</h3>
+              </div>
+            </span>
+          </label>
+        </div>
+      </div>
+	</section>
+	
+<input type="submit" name="submit" value="SUBMIT" id="nav" onclick="result()" class="scroll-down5">
+<input type="back" name="back" value="BACK" onclick="window.location.href ='middlebody.html';" class="scroll-down6"> 
+
+    <section class="tips" id="sec-res">
+        <h1 class="heading"> Reults based on your symptoms are :</h1>
+        <div class="box-container">
+            <div class="box" id="res-n" style="display:none">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.YC9RJ9OdG6oR-GkNmGeUvQHaF8&pid=Api&P=0" alt="">
+                <h3>Sorry </h3>
+                <p>We are unable to find any conditions that match the symptoms you entered..</p>
+                <a href="selftest_index.html">Re-enter your symptoms.</a>
+            </div>
+            <div class="box" id="res-a" style="display:none">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.l0V5DzGq6_Zy8ZJOUmFM3QHaE_&pid=Api&P=0" alt="">
+                <h3>De Quervain Tenosynovitis</h3>
+                <p>Symptoms : Pain along the back of your thumb, directly over the two tendons ; Swelling and pain at the base of your thumb ; Swelling and pain on the side of your wrist
+                    <br><br>How Common : Age: Adults between 30 and 50 are most likely to get it ; Gender: Women are 8 to 10 times more likely to get it than men ; Motherhood: It often happens just after pregnancy. Lifting your little bundle of joy repeatedly might bring it on.
+                    <br><br>Risk Factors : A direct blow to the thumb ; Gaming ; Hobbies like gardening or racket sports ; Inflammatory conditions like rheumatoid arthritis ; Overuse ; Repetitive workplace tasks
+                    <br><br>Diagnosed By : The doctor will check your hand to see if it hurts when they put pressure on the thumb side of your wrist. Next, you’ll get the Finkelstein test. The doctor will ask you to bend your thumb across your palm. Then you’ll bend your fingers down over your thumb to make a fist.
+                </p>
+                <a href="https://www.webmd.com/rheumatoid-arthritis/guide/de-quervains-disease" target="_blank">Learn more ...</a>     
+            </div>
+            <div class="box" id="res-b" style="display:none">
+                <img src="https://tse1.mm.bing.net/th?id=OIP._iVjtIoq81ycJ87l4NBaCgAAAA&pid=Api&P=0" alt="">
+                <h3>Rheumatoid Arthiritis</h3>
+                <p>Symptoms : Symptoms of RA include joint pain, swelling, fever, fatigue, swollen glands, weight loss, morning stiffness, and red hands.
+                    <br><br> How Common : About three people in 10,000 in the world have rheumatoid arthritis.        
+                    <br><br>Diagnosed By : To diagnose RA, your doctor will take a medical history and do a physical exam. You also may need a blood test or X-rays. Your doctor may refer you to a rheumatologist.
+                </p>
+                <a href="https://www.webmd.com/rheumatoid-arthritis/default.htm" target="_blank">Learn more ...</a>     
+            </div>
+
+        </div>    
+    </section>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>    <!-- Alert Box Link -->
+
+  <script type="text/javascript">
+
+	function result() {
+        window.location.href = "#sec-res";
+	    var status= document.getElementById('res-n');
+        var resa = document.getElementById('res-a');
+        var resb = document.getElementById('res-b');
+	
+	    if(document.getElementById('q1a').checked == true)
+	    {
+		   resa.style.display = "block";
+
+	    }
+
+        if(document.getElementById('q1b').checked == true)
+	    {
+		    resb.style.display = "block";
+            resa.style.display = "block";
+	    }
+
+        if(document.getElementById('q1c').checked == true)
+	    {
+		    resa.style.display = "block";
+	    }
+	
+
+	
+	    //swal(status);
+        //document.write(status);
+        //document.getElementById("res").innerHTML = status;
+        }
+
+</script>
+
+</body>
+</html>

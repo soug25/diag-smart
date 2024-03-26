@@ -1,0 +1,118 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lower-Body</title>
+    <link rel="stylesheet" href="selftest_style.css">
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap" rel="stylesheet"/>
+    <!--Line Awesome CDN Link-->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
+  </head>
+  <body>
+    <h1 style="font-family:poppins;background-color:orange;text-align:center;font-size: 3.2em; margin-top: 0.20em;font-color:white;color:white">Analyze your lower-body</h1>
+    
+    <section id="sec-1">
+      <div class="main-container">
+        <h2>Pelvic</h2>
+        <div class="radio-buttons">
+          <label class="custom-radio">
+            <input type="radio" name="ques1" id="q1a">
+            <span class="radio-btn">
+              <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="145 px" height="145 px" src="images/pelvic.png"/>
+                <h3>Pelvic parts</h3>
+              </div>
+            </span>
+          </label>
+        </div>
+      </div>
+    </section>     
+    
+    <section id="sec-2">
+      <div class="main-container">
+        <h2>Legs</h2>
+        <div class="radio-buttons">
+          <label class="custom-radio">
+            <input type="radio" name="ques1" id="q1a">
+            <span class="radio-btn">
+              <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="145 px" height="145 px" src="images/thigh.png"/>
+                <h3>Thighs</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="ques1" id="q1b">
+            <span class="radio-btn">
+		          <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="145 px" height="145 px" src="images/knee.png"/>
+                <h3>Knee</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="ques1" id="q1c">
+            <span class="radio-btn">
+		          <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="145 px" height="145 px" src="images/shin.png"/>
+                <h3>Shin</h3>
+              </div>
+            </span>
+          </label>
+        </div>
+      </div>
+	  </section>
+	
+<input type="submit" name="submit" value="SUBMIT" onclick="result()" class="scroll-down5">
+<input type="back" name="back" value="BACK" onclick="window.location.href ='index.html';" class="scroll-down6">
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>    <!-- Alert Box Link -->
+
+<script type="text/javascript">
+
+/*$(document).ready(function() {
+          $(".checkRadioBtn1").click(function() {
+              $("#radiobtn1").prop("checked", true);
+            });
+          $(".checkRadioBtn2").click(function() {
+              $("#radiobtn2").prop("checked", true);
+            });
+        });*/
+
+	function result() {
+	var status=0;
+	
+	if(document.getElementById('q1a').checked)
+	{
+		location.replace("thigh.html" ,"_blank")
+	}
+  if(document.getElementById('q1b').checked)
+	{
+		location.replace("knee.html" ,"_blank")
+	}
+	
+	if(document.getElementById('free').checked)
+	{
+		status="Your infection risk is low. We recommend that you should stay at home to avoid any chance of exposure to the Novel Coronavirus. \n\n\nRetake the Self-Assessment Test if you develop symptoms or come in contact with a COVID-19 confirmed patient.\n Stay home and take care of yourself and your family";
+	}
+	
+	swal(status);
+}
+</script>
+
+<!-- FOR NEXT BUTTON-->
+<section id="sec-1">
+  <div class="container">
+    <a href="#sec-2">
+      <div class="scroll-down1"></div>
+    </a>
+  </div>
+</section>
+
+</body>
+</html>

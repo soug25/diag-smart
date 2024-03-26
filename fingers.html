@@ -1,0 +1,135 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fingers</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4161/4161812.png">
+    <link rel="stylesheet" href="selftest_style.css">
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap" rel="stylesheet"/>
+    <!--Line Awesome CDN Link-->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+      
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="data_css.css" />
+</head>
+  <body>
+    <h1 style="font-family:poppins;background-color:orange;text-align:center;font-size: 3.2em; margin-top: 0.20em;font-color:white;color:white">Analyze your fingers</h1>
+    <section id="sec-1">
+      <div class="main-container">
+        <h2> Are you experiencing any of the following symptoms?</h2>
+        <div class="radio-buttons">
+          <label class="custom-radio">
+            <input type="radio" name="ques1.a" id="q1a">
+            <span class="radio-btn">
+              <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="140 px" height="140 px" src="https://tse4.mm.bing.net/th?id=OIP.fcFvuTxWfgBOVAf-8pK50gHaFB&pid=Api&P=0"/>
+                <h3>Finger(s) hurts</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="ques1.b" id="q1b">
+            <span class="radio-btn">
+		          <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="150 px" height="140 px" src="https://tse1.mm.bing.net/th?id=OIP.isue0X4QjcXxty0F0d2ZiAHaEA&pid=Api&P=0"/>
+                <h3>Nail pulling away from cuticle</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="ques1.c" id="q1c">
+            <span class="radio-btn">
+		          <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="140 px" height="140 px" src="https://tse2.mm.bing.net/th?id=OIP.5HL9A4_TMCTr8Nf3Z30LPQHaG4&pid=Api&P=0"/>
+                <h3>Finger(s) turn red</h3>
+              </div>
+            </span>
+          </label>
+        </div>
+      </div>
+	</section>
+	
+<input type="submit" name="submit" value="SUBMIT" id="nav" onclick="result()" class="scroll-down5">
+<input type="back" name="back" value="BACK" onclick="window.location.href ='middlebody.html';" class="scroll-down6"> 
+
+    <section class="tips" id="sec-res">
+        <h1 class="heading"> Reults based on your symptoms are :</h1>
+        <div class="box-container">
+            <div class="box" id="res-n" style="display:none">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.YC9RJ9OdG6oR-GkNmGeUvQHaF8&pid=Api&P=0" alt="">
+                <h3>Sorry </h3>
+                <p>We are unable to find any conditions that match the symptoms you entered..</p>
+                <a href="selftest_index.html">Re-enter your symptoms.</a>
+            </div>
+            <div class="box" id="res-a" style="display:none">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.zSMOQW6xuUqJplKkxEtSAAHaE7&pid=Api&P=0" alt="">
+                <h3>Paronychia</h3>
+                <p>Symptoms : Skin redness, swelling, tenderness, pain, abscesses, cuticle breakdown
+                    <br><br>How Common : Paronychia is the most common hand infection.
+                    <br><br>Risk Factors : Poorly fitting shoes, aggressive manicuring, dirty nail clippers or scissors, jobs that require repeated or prolonged exposure to irritants or water, diabetes, and HIV put people at higher risk for paronychia.
+                    <br><br>Diagnosed By : Your doctor will do a physical exam and may sample fluid or pus to see what bacteria or fungus is causing the infection.
+                </p>
+                <a href="https://www.healthline.com/health/paronychia" target="_blank">Learn more ...</a>     
+            </div>
+            <div class="box" id="res-b" style="display:none">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.d2h7XEsrjZ7piJQ2wxvIGQHaEK&pid=Api&P=0" alt="">
+                <h3>Psoriasis</h3>
+                <p>Symptoms : Symptoms may include red, white, or silvery raised patches of scaly skin that may appear anywhere on the body, including the genitals; dry, flaky, cracked skin that may bleed; burning or itchy skin; pus-filled blisters; pitted, ridged, or yellowish orange fingernails or toenails.
+                    <br><br> How Common : About 7.5 million people in the U.S. have psoriasis.    
+                    <br><br>Risk Factors : Family history of psoriasis, immune system disorder, being between 15 and 40 years old
+                    <br><br>Diagnosed By : Your dermatologist will take a medical history; ask if family members have psoriasis; examine your skin, scalp, and nails; and may do a skin biopsy.
+                </p>
+                <a href="https://www.webmd.com/skin-problems-and-treatments/psoriasis/default.htm" target="_blank">Learn more ...</a>     
+            </div>
+
+        </div>    
+    </section>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>    <!-- Alert Box Link -->
+
+  <script type="text/javascript">
+
+	function result() {
+        window.location.href = "#sec-res";
+	    var status= document.getElementById('res-n');
+        var resa = document.getElementById('res-a');
+        var resb = document.getElementById('res-b');
+	
+	    if(document.getElementById('q1a').checked == true)
+	    {
+		   resa.style.display = "block";
+
+	    }
+
+        if(document.getElementById('q1b').checked == true)
+	    {
+		    resb.style.display = "block";
+            resa.style.display = "block";
+	    }
+
+        if(document.getElementById('q1c').checked == true)
+	    {
+		    resa.style.display = "block";
+	    }
+	
+
+	
+	    //swal(status);
+        //document.write(status);
+        //document.getElementById("res").innerHTML = status;
+        }
+
+</script>
+
+</body>
+</html>

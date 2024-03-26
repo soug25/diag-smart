@@ -1,0 +1,115 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upper-Body</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4615/4615534.png">
+    <link rel="stylesheet" href="selftest_style.css">
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap" rel="stylesheet"/>
+    <!--Line Awesome CDN Link-->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"/>
+  </head>
+  <body>
+    <h1 style="font-family:poppins;background-color:orange;text-align:center;font-size: 3.2em; margin-top: 0.20em;font-color:white;color:white">Analyze your upper body</h1>
+     <section id="sec-1">
+      <div class="main-container">
+        <h2>Which body part you want to check</h2>
+        <div class="radio-buttons">
+          <label class="custom-radio">
+            <input type="radio" name="ques1" id="q1a">
+            <span class="radio-btn">
+              <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="120 px" height="120 px"  src="https://cdn-icons-png.flaticon.com/128/6600/6600305.png"/>
+                <h3>Forehead</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="ques1" id="q1b">
+            <span class="radio-btn">
+		          <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="120 px" height="120 px" src="https://cdn-icons-png.flaticon.com/128/2547/2547870.png"/>
+                <h3>Eyes</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="ques1" id="q1c">
+            <span class="radio-btn">  
+		          <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="120 px" height="120 px" src="https://cdn-icons-png.flaticon.com/128/2184/2184211.png"/>
+                <h3>Ears</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="ques1" id="q1d">
+            <span class="radio-btn">  
+		          <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="120 px" height="120 px" src=" https://cdn-icons-png.flaticon.com/128/3071/3071102.png"/> 
+                <h3>Nose</h3>
+              </div>
+            </span>
+          </label>
+          <label class="custom-radio">
+            <input type="radio" name="ques1" id="q1e">
+            <span class="radio-btn">  
+		          <i class="las la-check"></i>
+              <div class="amartya-icon">
+                <img width="120 px" height="120 px" src="https://cdn-icons-png.flaticon.com/128/5728/5728048.png" />
+                <h3>Jaws</h3>
+              </div>
+            </span>
+          </label>
+        </div>
+      </div>
+	  </section>
+	  
+	
+<input type="submit" name="submit" value="SUBMIT" onclick="result()" class="scroll-down5">
+<input type="back" name="back" value="BACK" onclick="window.location.href ='selftest_index.html';" class="scroll-down6">
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>    <!-- Alert Box Link -->
+
+<script type="text/javascript">
+
+	function result() {
+	var status=0;
+	
+	if(document.getElementById('q1a').checked)
+	{
+		location.replace("head.html" ,target = "_blank")
+	}
+  if(document.getElementById('q1b').checked)
+	{
+		location.replace("eye.html" ,target = "_blank")
+	}
+  if(document.getElementById('q1c').checked)
+	{
+		location.replace("ears.html" ,target = "_blank")
+	}
+  if(document.getElementById('q1d').checked)
+	{
+		location.replace("nose.html" ,target = "_blank")
+	}
+  if(document.getElementById('q1e').checked)
+	{
+		location.replace("jaws.html" ,target = "_blank")
+	}
+	
+	if(document.getElementById('free').checked)
+	{
+		status="Your infection risk is low. We recommend that you should stay at home to avoid any chance of exposure to the Novel Coronavirus. \n\n\nRetake the Self-Assessment Test if you develop symptoms or come in contact with a COVID-19 confirmed patient.\n Stay home and take care of yourself and your family";
+	}
+	
+	swal(status);
+}
+</script>
+
+</body>
+</html>
