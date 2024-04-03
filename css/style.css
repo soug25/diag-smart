@@ -81,11 +81,11 @@ header.sticky{
 }
 
 .home{
-    background:url("https://images.pexels.com/photos/2383010/pexels-photo-2383010.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat;
+    background:url("https://images.unsplash.com/photo-1556691421-cf15fe27a0b6?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    /* background-size: ; */
 }
 
 .home .content{
@@ -94,16 +94,30 @@ header.sticky{
 }
 
 .home .content h1{
-    font-size: 5rem;
-    color:var(--dark-blue);
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12rem;
+    color:cyan;
 }
 
 .home .content h3{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     font-size: 4rem;
-    color:var(--lightblue);
+    color:pink;
     font-weight: normal;
 }
+.home .content .hidden1{
+    height: 300px;
+    /* background-color: cyan; */
+}
 
+.home .content .hidden0{
+    height: 200px;
+}
 .home .content .btn{
     display: inline-block;
     padding:.7rem 3rem;
