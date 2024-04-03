@@ -81,8 +81,8 @@ header.sticky{
 }
 
 .home{
-    background:url("images/back-h3.png") no-repeat;
-    /* background-color: lightblue; */
+    /* background:url("") no-repeat; */
+    background-color: lightblue;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
