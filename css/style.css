@@ -81,7 +81,8 @@ header.sticky{
 }
 
 .home{
-    background:url("https://images.unsplash.com/photo-1556691421-cf15fe27a0b6?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+    background:url("images/back-h3.png") no-repeat;
+    /* background-color: lightblue; */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -98,7 +99,7 @@ header.sticky{
     font-weight: 400;
     font-style: normal;
     font-size: 12rem;
-    color:cyan;
+    color:darkblue;
 }
 
 .home .content h3{
@@ -107,16 +108,16 @@ header.sticky{
     font-weight: 400;
     font-style: normal;
     font-size: 4rem;
-    color:pink;
+    color: black;
     font-weight: normal;
 }
 .home .content .hidden1{
-    height: 300px;
+    height: 200px;
     /* background-color: cyan; */
 }
 
 .home .content .hidden0{
-    height: 200px;
+    height: 100px;
 }
 .home .content .btn{
     display: inline-block;
