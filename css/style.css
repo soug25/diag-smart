@@ -81,7 +81,7 @@ header.sticky{
 }
 
 .home{
-    background:url("https://images.pexels.com/photos/2383010/pexels-photo-2383010.jpeg?auto=compress&cs=tinysrgb&w=600") no-repeat;
+    background:url("images/bg_purple") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
